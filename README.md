@@ -43,7 +43,7 @@ Must npm i as there are dependencies such as dotenv, express, sequelize and mysq
 ```
 
 ## Walk Through
-GET Video
+GET Video <br>
 https://user-images.githubusercontent.com/112296194/220849629-d97bce22-d1e1-4cc8-be63-992379cafc3d.mov
 
 
