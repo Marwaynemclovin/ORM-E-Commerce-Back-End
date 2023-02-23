@@ -22,7 +22,7 @@ router.get('/:id', async (req, res) => {
       where: { id: req.params.id },
       include: [Category, { model: Tag, through: ProductTag }]
     });
-    res.json(singleProduct);
+    res.status(200).json(singleProduct);
   } catch (err) {
     res.status(400).json(err);
   }
@@ -96,7 +96,7 @@ router.delete('/:id', async (req, res) => {
         id: req.params.id,
       },
     });
-    res.json(rowsDeleted);
+    res.status(200).json(rowsDeleted);
   } catch (err) {
     res.status(400).json(err);
   }
