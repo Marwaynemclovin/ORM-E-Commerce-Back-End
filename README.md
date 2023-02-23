@@ -5,6 +5,7 @@ A back-end e-commerce site that allows you to track necessities relating to prod
 ## Table of Contents
 [Local Installation](#Local-Installation) <br>
 [File Structure](#File-Structure) <br>
+[Walk Throough](#Walk-Through) <br>
 [License](#License)
 
 ## Local Installation
@@ -40,6 +41,13 @@ Must npm i as there are dependencies such as dotenv, express, sequelize and mysq
    └── product-seeds.js
    └── tag-seeds.js
 ```
+
+## Walk Through
+GET Video
+https://user-images.githubusercontent.com/112296194/220849629-d97bce22-d1e1-4cc8-be63-992379cafc3d.mov
+
+
+
 
 ## License
 Copyright (c) [2022] [Marwin Manlangit]
